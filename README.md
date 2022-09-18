@@ -1,2 +1,2 @@
-# -eq-app
+# Electronic queue application  
 Application for electronic queue
