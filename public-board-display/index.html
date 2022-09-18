@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Информационное табло</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="icon" type="image/x-icon" href="images/favicon.png">	
+</head>
+<body>
+	<div class="container" id="app">
+		<div class="content">
+			<main class="main_section"> 
+				<header class="main_header"> 
+					<h1>Электронная очередь</h1> 
+				</header>
+				
+				<div class="section_list_header">
+					<h2>Талон</h2>
+					<h2>Окно</h2>
+				</div>
+
+				<div class="section_list">
+					<div class="section_list_item">
+						<span>Б1</span>
+						<span class="arrow"></span>
+						<span>1</span>
+					</div>
+
+					<div class="section_list_item">
+						<span>А1</span>
+						<span class="arrow"></span>
+						<span>3</span>
+					</div>
+
+					<div class="section_list_item">
+						<span>В1</span>
+						<span class="arrow"></span>
+						<span>2</span>
+					</div>
+				</div>
+			</main>
+
+			<aside class="sidebar"> 
+				<section class="logo">
+					<img src="images/logo.jpg" alt="Логотип" class="img-responsive">
+				</section>
+		
+				<section class="date_section">
+					<div class="date">
+						<p class="day">10</p>
+						<p class="month">сентября</p>
+						<p class="year">2022</p>
+					</div>
+        				<time class="time time__item-date" id="time" datetime="2022-09-10T22:14"></time>
+				</section>
+			</aside>
+		</div>
+  
+		<footer class="main_footer"> 
+			<marquee>
+				<span class="info-item">Бегущая строка с каким-то настраиваемымм информационным текстом</span>
+				<span class="info-item">Другой очень важный информационный текст. Например, курсы валют</span>
+				<span class="info-item">Информационных сообщений много не бывает, поэтому для наглядности здесь присутствует эта строка</span>
+			</marquee> 
+		</footer>
+	</div>
+
+	<script type="text/javascript" src="scripts/script.js"></script>  
+</body>
+</html>
