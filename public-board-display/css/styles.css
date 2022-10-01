@@ -44,12 +44,15 @@ body {
 	flex: 1 100%;
 }
 
-
 .main_section {
 	flex: 1 0 auto;
 }
 
 .sidebar {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding: 15px 12px;
 	width: 22%;
 	height: 84vh;
 	margin-bottom: 4vh;
@@ -78,6 +81,10 @@ p {
 .img-responsive {
 	max-width: 100%;
 	height: auto;
+}
+
+.date_section {
+	margin-bottom: auto;
 }
 
 .date {
@@ -122,7 +129,6 @@ p {
 .section_list {
 	padding: 0.5rem;
 	text-align:center;
-
 }
 
 .section_list_item {
